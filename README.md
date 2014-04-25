@@ -9,6 +9,9 @@ use composer, and add the following line to your composer under "require"
 add to config/app.php
 
     'Jleach\Laravelmce\LaravelmceServiceProvider',
+run in the 'command line interface'
+
+    php artisan asset:publish
 
 then add this line to your head section in your html page.
 
