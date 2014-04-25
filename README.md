@@ -9,11 +9,13 @@ use composer, and add the following line to your composer under "require"
 add to config/app.php
 
     'Jleach\Laravelmce\LaravelmceServiceProvider',
-run in the 'command line interface'
+run in the command line
 
     php artisan asset:publish
+    
+    
 
-then add this line to your head section in your html page.
+then add this line to your head section in your blade.php view.
 
     {{ HTML::script('packages/jleach/laravelmce/js/tinymce/tinymce.min.js') }}
 
